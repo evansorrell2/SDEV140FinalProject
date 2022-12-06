@@ -1,0 +1,63 @@
+bring in breezypythongui
+
+define class for chipotle order system
+  initialize
+    set up window, widgets, and data
+    title equals Chipotle Online Ordering Platform : Main Menu
+    display label "Choose a type of item to add to your order"
+    give 4 buttons, one for drinks, one for entres, one for sides, one for cart that will have the number of items in the cart displayed in ()
+    
+  define entree button
+    tital equals Chipotle Online Ordering Platform : Entre Menu
+    display label "Choose which type of entree you wish to add"
+    give 6 buttons, one for burrito, one for bowl, one for quesadilla, one for kids build your own, one for kids quesadilla, one for return to main menu
+    
+  define burrito button
+    tital equals Chipotle Online Ordering Platform : Bowl Menu
+    display label "Build your Borrito"
+  
+  define bowl button
+    tital equals Chipotle Online Ordering Platform : Bowl Menu
+    display label "Build your Bowl"
+  
+  define quesadilla button
+    tital equals Chipotle Online Ordering Platform : Bowl Menu
+    display label "Build your Quesadilla"
+  
+  define kids build your own button
+    tital equals Chipotle Online Ordering Platform : Bowl Menu
+    display label "Choose Your Sides and your Tortillas"
+  
+  define kids quesadilla button
+    tital equals Chipotle Online Ordering Platform : Bowl Menu
+    display label "Choose Your Sides and the type of Quesadilla you want"
+  
+  define sides button
+    title equals Chipotle Online Ordering Platform : Sides Menu
+    display label "Select which sides you would like to add"
+    give 2 buttons (one for normal, one for large) for each of the following options:
+    [white rice, brown rice, fajita vegies, black beans, pinto beans, sofritas, chichen, 
+    steak, chicken al pastor, queso blanco, carnitas, barbacoa, mild salsa, medium salsa, 
+    hot salsa, medium corn salsa, sour cream, shredded cheese, guacamole, taco lettuce, 
+    salad lettuce, chips]
+    
+  define drink button
+    title equals Chipotle Online Ordering Platform : Drink Menu
+    display label "Choose which type of drink you wish to add"
+    give 3 buttons, one for fountain drinks, one for other drinks like mexican coke and sprite, one to return to main menu
+    
+  def fountain drinks button
+    title equals Chipotle Online Ordering Platform : Fountain Drink Menu
+    display label "Choose which drink you wish to add"
+    give 3 buttons (one for kids, small, and large) for each fountain drink option, a button for a water cup, and one button to return to main menu
+    
+  def misc drinks button
+    title equals Chipotle Online Ordering Platform : Fountain Drink Menu
+    display label "Choose which drink you wish to add"
+    give buttons, mexican coke, mexican sprite, milk, chocolate milk, and all of the other bottled drinks available, and one button to return to main menu
+    
+  define return to main menu button
+    tital equals Chipotle Online Ordering Platform : Main Menu
+    display label "Choose a type of item to add to your order"
+    give 4 buttons, one for drinks, one for entres, one for sides, one for cart that will have the number of items in the cart displayed in ()
+  
