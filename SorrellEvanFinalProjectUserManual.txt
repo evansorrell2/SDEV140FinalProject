@@ -1,0 +1,38 @@
+Greetings.
+This is a user manual for my GUI final project.
+
+The project simulates the ordering experience of the Chipotle app.
+
+Once the program is ran, a window is displayed with the Chipotle logo and a button labeled "start".
+To get to the meat of the program, you'll want to press the start button.
+
+Upon pressing the start button you will be taken to the main menu. From here you can do a variety of things.
+You'll see that there are 5 buttons here to choose from. 
+- Entrees
+- Sides
+- Drinks
+- Proceed to Checkout
+- Exit
+Each of these buttons have a different function.
+
+The exit button will be visible most of the time and simply exits the program completely.
+The proceed to checkout button is only visible in the main menu and will display a popup menu and show you the total cost of all the items that have been added to the cart thusfar. If no items have been added to the cart, the total will be $0
+Later we will come across a button labeled "back". This button will always take you to the previous menu you were in before you got to the menu you currently reside on.
+The drinks, sides, and entrees buttons each take you to different menus.
+
+The drinks button will take you to the drinks menu where you can add a small or large drink to your cart. There are 4 buttons here, one labeled "Small" and one labeled "Large" and they add a small and large drink to your cart respectively. The "back" and "exit" buttons are also here. A small drink costs $2.65 and a large is $2.95
+
+The sides button will take you to the sides menu where you can add a variety of sides to your cart. Each button displayed on the page (of which there are 14 (excluding the "back" and "exit" buttons)) add a side to your cart depending on the label of the button. Guacamole and Queso Blanco sides cost $2.40 and Side Tortillas cost $0.50. Any other side costs $0.30
+
+The entree button leads you to the entree menu where you will see a number of other buttons. There are 6 buttons here (excluding the "back" and "exit" buttons) and each will take you to a seperate menu for customizing your entree of the type that the button is labeled for. The buttons are as follows: "Burrito", "Bowl", "Salad", "Quesadilla", "Kids Quesadilla", and "Kids Build Your Own". Each of the menus for the entree items shows an image of what that entree may look like and shows all of the options you have for customizing your entree. 
+
+Once you select the type on entree you would like by pressing one of these buttons, you can add ingredients to your entree by pressing the respective button of the ingredient that you would like. For the purposes of this program, a single button press is counted as a serving of that ingredient. Burritos, bowls, and salads are only allowed to have one protein and up to one serving of every other type of ingredient. Quesadillas (both the regular one and the kids version) also can only have one protein but can only have up to three other ingredients that come as sides. In addition, adding queso or guacamole prevents you from adding a protein as they are paid-for items. In this case the quesadilla is a cheese quesadilla and the queso or guacamole will count as one of the sides. In the case of the kids build your own entre, it comes with 2 taco shells and you get to choose 3 ingredients (with a limit of one protein, guacamole, or queso serving). In the case of every entree, if a protein option is not selected, the entree is counted as 'vegie'. 
+
+Prices       | Burrito | Bowl | Salad | Quesadilla | Kids Quesadilla | Kids Build Your Own
+Veggie       |  7.85   | 7.85 | 7.85  |    8.40    |      3.95       |        4.95
+Chicken      |  7.85   | 7.85 | 7.85  |    8.40    |      4.50       |        4.95
+Steak        |  9.60   | 9.60 | 9.60  |   10.15    |      4.50       |        4.95
+Carnitas     |  8.50   | 8.50 | 8.50  |    9.05    |      4.50       |        4.95
+Barbacoa     |  9.60   | 9.60 | 9.60  |   10.15    |      4.50       |        4.95
+Guacamole    |  +2.40  | +2.40| +2.40 |   10.15    |      4.50       |        4.95
+Queso Blanco |  +1.40  | +2.40| +2.40 |   10.15    |      4.50       |        4.95
